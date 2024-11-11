@@ -2,7 +2,9 @@
 
 ## 1. Project Overview
 
-This project demonstrates the implementation of **Logistic Regression**, a widely-used machine learning algorithm for binary classification problems. The notebook walks through the entire process, from loading and preprocessing data, to building and training a logistic regression model, and finally evaluating its performance using various metrics. Users can expect to learn how to apply logistic regression to a dataset, interpret results such as accuracy and confusion matrices, and visualize model performance.
+This project demonstrates the implementation of **Logistic Regression**, a supervised learning algorithm used to classify data into binary categories—in this case, whether a user will click on an ad or not. It works by estimating the probability that a given input belongs to a specific class (click vs. no-click) using a logistic (sigmoid) function, which maps the output to values between 0 and 1.
+
+The notebook walks through the entire process, from loading and preprocessing data, to building and training a logistic regression model, and finally evaluating its performance using various metrics.
 
 ### Dataset
 The dataset used in this notebook is a synthetic dataset generated for binary classification purposes. It contains features representing independent variables and a target variable indicating the class label (0 or 1). The dataset is preprocessed by standardizing the features to ensure that all variables contribute equally to the logistic regression model.
@@ -111,6 +113,7 @@ After running the logistic regression model, you will see a classification repor
   - The number of occurrences of each class (clicked and not clicked) in the test data.
 
 ### Summary
+In short, logistic regression helps to predict the probability of a user clicking on an ad based on their characteristics, allowing for informed decision-making and efficient ad targeting.
 The model shows robust performance across all metrics, effectively distinguishing between users who clicked on the ad and those who didn’t.
 
 By following these steps, users can fully replicate all experiments conducted in this machine learning project.
