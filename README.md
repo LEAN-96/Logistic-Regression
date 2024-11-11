@@ -75,7 +75,7 @@ Click the MyBinder button below to launch the notebook in an interactive environ
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LEAN-96/Logistic-Regression.git/HEAD?labpath=notebooks)
 
-nce MyBinder loads:
+Once MyBinder loads:
 1. Navigate to your notebook (`Logistic_Regression.ipynb`) in the file browser on the left.
 2. Click on the notebook file to open it.
 3. Run all cells by selecting "Run All" from the "Cell" menu or pressing `Shift + Enter` for individual cells.
@@ -93,8 +93,24 @@ To reproduce the results shown in this project:
 
 ### Interpreting Results:
 
-- **Accuracy Metrics**: These metrics show how well the logistic regression model performs on both training and test datasets.
-- **Confusion Matrix**: This matrix helps visualize correct vs incorrect predictions across different classes (0 or 1).
-- **Feature Analysis or Graphs**: Visual representations such as decision boundaries or feature importance may be included depending on how the notebook is structured.
+After running the logistic regression model, you will see a classification report that includes several key metrics used to evaluate the model's performance: precision, recall, f1-score, and support. Each metric is calculated for both classes (those that clicked on the ad and those that did not).
+
+- **Accuracy**:
+  - Indicates the overall proportion of correct predictions. Here, the model correctly classifies 97% of instances.
+
+- **Precision**:
+  - Measures the accuracy of positive predictions (clicks). For users who clicked, a precision of 0.98 means that 98% of predictions are correct.
+  
+- **Recall**:
+  - Measures the ability to capture actual positives (clicks). A recall of 0.96 for users who clicked indicates that the model correctly identifies 96% of actual clicks.
+  
+- **F1-Score**:
+  - The harmonic mean of precision and recall, providing a single measure of balance. An F1-score of 0.97 for clicked ads shows strong model performance.
+
+- **Support**:
+  - The number of occurrences of each class (clicked and not clicked) in the test data.
+
+### Summary
+The model shows robust performance across all metrics, effectively distinguishing between users who clicked on the ad and those who didn’t.
 
 By following these steps, users can fully replicate all experiments conducted in this machine learning project.
