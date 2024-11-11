@@ -25,10 +25,10 @@ The dataset used in this notebook is a synthetic dataset generated for binary cl
    - The logistic regression model is trained on the preprocessed data using the `fit()` method. The training process involves minimizing the log-loss function to find optimal model parameters.
    
 4. **Evaluation**:
-   - Model performance is evaluated using metrics such as accuracy score, precision, recall, and F1-score. A **confusion matrix** is also generated to visualize the number of true positives, true negatives, false positives, and false negatives.
+   - Model performance is evaluated using metrics such as accuracy score, precision, recall, and F1-score.
    
 5. **Visualization**:
-   - Users can expect visualizations like accuracy plots over training iterations and confusion matrix heatmaps to better understand model performance.
+   - Users can expect visualizations like accuracy plots over training iterations to better understand model performance.
 
 ## 2. Requirements
 
